@@ -14,6 +14,7 @@ for filename in glob.glob("*"):
     extension_dict[ext] += 1
 
 newList = list(sorted(extension_dict.items()))
+
 for tuplee in newList:
     language.append(tuplee[0])
     value.append(tuplee[1])
