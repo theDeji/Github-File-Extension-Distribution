@@ -8,7 +8,7 @@ course = {
     'CSC100' : []
 }
 
-order_ = []
+order_ = [] ##final order will be stored in the list
 
 color = {} #W - white, G - grey, B - black
 parent = {}
